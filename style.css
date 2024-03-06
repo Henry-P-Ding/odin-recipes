@@ -1,0 +1,29 @@
+body {
+    font-family: "Verdana", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.return-home {
+    font-style: italic;
+}
+
+img.recipe-image {
+    height: 400px;
+    width: auto;
+}
+
+.recipe-list {
+    font-size: 20px;
+}
+
+.description {
+    font-style: italic;
+}
+
+.source {
+    font-style: italic;
+    font-size: 16px;
+}
