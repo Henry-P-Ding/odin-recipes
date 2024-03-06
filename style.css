@@ -1,10 +1,17 @@
 body {
     font-family: "Verdana", sans-serif;
+    background: #F2F2F2;
+    box-sizing: border-box;
 }
 
-h1 {
+.homepage-title {
     text-align: center;
+    font-size: 48px;
+    color: #8C8C87;
+    text-decoration: underline wavy #D94A4A99 8px;
+    text-decoration-skip-ink: none;
 }
+
 
 .return-home {
     font-style: italic;
@@ -17,6 +24,34 @@ img.recipe-image {
 
 .recipe-list {
     font-size: 20px;
+    margin: 0px auto;
+    padding: 8px 8px;
+    width: 482px;
+    background-color: #8C281F;
+}
+
+.recipe-list .recipe-item {
+    background-color: #D94A4A;
+    text-align: center;
+    width: 450px; /* TODO: How do I make the width automatically size to the width of the links? */
+    margin: 8px auto;
+    padding: 8px 16px;
+}
+
+/* TODO: combine these into one declaration block */
+.recipe-list .recipe-item:first-child {
+    margin-top: 0px;
+}
+
+.recipe-list .recipe-item:last-child {
+    margin-bottom: 0px;
+}
+
+
+.recipe-list .recipe-item .recipe-link {
+    color: #F2F2F2;
+    text-decoration: none;
+    font-size: 24px;
 }
 
 .description {
@@ -24,6 +59,7 @@ img.recipe-image {
 }
 
 .source {
+    text-align: center;
     font-style: italic;
-    font-size: 16px;
+    font-size: 12px;
 }
